@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <title>JSON Creator</title>
+</head>
+<body>
+    <h1 id="title">JSON MAIL CREATOR</h1>
+    <div id="content">
+        <div class="shortField">
+            <label for="from">From:</label>
+            <input type="text" name="from" id="from">
+        </div>
+        <div class="shortField">
+            <label for="to">To:</label>
+            <input type="text" name="to" id="to">
+        </div>
+        <div class="shortField">
+            <label for="date">Date:</label>
+            <input type="text" name="date" id="date">
+        </div>
+        <div class="shortField">
+            <label for="subject">Subject:</label>
+            <input type="text" name="subject" id="subject">
+        </div>
+        <div class="longField">
+            <textarea name="body" id="body"></textarea>
+        </div>
+        <input type="button" value="Download JSON" id="download">
+    </div>
+</body>
+</html>
