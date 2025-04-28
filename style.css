@@ -46,6 +46,7 @@ body{
     left: 50%;
     transform: translate(-50%);
     top: 5%;
+    text-align: center;
 }
 
 #content{
@@ -93,4 +94,26 @@ body{
 
 #download:active{
     scale: 0.95;
+}
+
+@media only screen and (max-width: 500px) {
+    #content{
+        width: 100%;
+    }
+
+    .shortField{
+        width: 90%;
+    }
+
+    .longField{
+        width: 90%;
+    }
+
+    #download{
+        width: 90%;
+    }
+
+    #title{
+        font-size: 5vw;
+    }
 }
